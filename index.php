@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" type="text/css" href="css/cadastro.css">
     <link href="js/java.js">
     <title>Dev Social</title>
+<!-- eliel696996 -->
 </head>
     <style>
         <!-- slide -->
