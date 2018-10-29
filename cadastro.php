@@ -79,7 +79,7 @@
           </p>
           
           <p> 
-              <button onclick="login()">Logar</button> 
+              <button onclick="login()" class="button_log">Logar</button> 
           </p>
            
           <p class="link">
@@ -105,13 +105,15 @@
             <label for="email">E-mail</label>
             <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
           </p>
+           <div id="button">
           <p> 
-              <button onclick="cadastrar()">Cadastrar</button> 
+             
+              <button onclick="cadastrar()" class="button_cad">Cadastrar</button>  
           </p>
-           
+              </div>
           <p class="link">  
             Já tem conta?
-            <a href="#paralogin"> Ir para Login </a>
+            <a href="#paralogin">Logar </a>
           </p>
       </div>
     </div>

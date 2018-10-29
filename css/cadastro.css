@@ -235,3 +235,82 @@ input[type="submit"]:hover{
     transform: translateX(-20px);
   }
 }
+
+
+
+
+.button_cad {
+	-moz-box-shadow:inset 0px 0px 0px 0px #fafdff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #fafdff;
+	box-shadow:inset 0px 0px 0px 0px #fafdff;
+	background-color:#0c7696;
+	-webkit-border-top-left-radius:19px;
+	-moz-border-radius-topleft:19px;
+	border-top-left-radius:19px;
+	-webkit-border-top-right-radius:19px;
+	-moz-border-radius-topright:19px;
+	border-top-right-radius:19px;
+	-webkit-border-bottom-right-radius:19px;
+	-moz-border-radius-bottomright:19px;
+	border-bottom-right-radius:19px;
+	-webkit-border-bottom-left-radius:19px;
+	-moz-border-radius-bottomleft:19px;
+	border-bottom-left-radius:19px;
+	text-indent:-2.66px;
+	border:1px solid #fcf9fc;
+	display:inline-block;
+	color:#faedfa;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:37px;
+	line-height:37px;
+	width:116px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+}.button_cad:hover {
+	background-color:#244a63;
+}.button_cad:active {
+	position:relative;
+	top:1px;
+}
+
+.button_log {
+	-moz-box-shadow:inset 0px 0px 0px 0px #fafdff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #fafdff;
+	box-shadow:inset 0px 0px 0px 0px #fafdff;
+	background-color:#0c7696;
+	-webkit-border-top-left-radius:19px;
+	-moz-border-radius-topleft:19px;
+	border-top-left-radius:19px;
+	-webkit-border-top-right-radius:19px;
+	-moz-border-radius-topright:19px;
+	border-top-right-radius:19px;
+	-webkit-border-bottom-right-radius:19px;
+	-moz-border-radius-bottomright:19px;
+	border-bottom-right-radius:19px;
+	-webkit-border-bottom-left-radius:19px;
+	-moz-border-radius-bottomleft:19px;
+	border-bottom-left-radius:19px;
+	text-indent:-2.66px;
+	border:1px solid #fcf9fc;
+	display:inline-block;
+	color:#faedfa;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	font-style:normal;
+	height:37px;
+	line-height:37px;
+	width:116px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+}.button_log:hover {
+	background-color:#244a63;
+}.button_log:active {
+	position:relative;
+	top:1px;
+}
