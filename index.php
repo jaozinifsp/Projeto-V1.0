@@ -19,6 +19,7 @@ session_start();
     <style>
         <!-- slide -->
         <!-- boa! -->
+        <!-- boa2! -->
         * {box-sizing: border-box}
         body {font-family: Verdana, sans-serif; margin:0}
         .mySlides {display: none}   
