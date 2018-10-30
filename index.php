@@ -131,6 +131,7 @@ session_start();
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#jogos"><i class="material-icons"></i></a></li>                
                         <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro.php">Acessar Conta</a></li>
+                        <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a></li>
                         
                     </ul>
                 </div>
