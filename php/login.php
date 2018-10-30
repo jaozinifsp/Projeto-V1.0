@@ -1,5 +1,5 @@
 <?php 
-$user = $_POST['nome_login'];
+$user = $_SESSION['nome_login'];
 $pass = sha1($_POST['senha_login']);
 
 require 'conexao.php';
