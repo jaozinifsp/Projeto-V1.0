@@ -1,4 +1,3 @@
-<asdasdsa></asdasdsa>
 <html>
 <head>
   <meta charset="UTF-8" />
@@ -21,9 +20,10 @@
             data: {"nome_cad":nome, "senha_cad":senha, "email_cad":email},
             success: function(retorno){
             if(retorno.deucerto){
-                window.location.href = "index2.php";
+                location.reload();
+                alert("Cadastrado Com Sucesso!");
             }else{   
-                
+                alert(retorno.mensagem);
             }
             }
         });
