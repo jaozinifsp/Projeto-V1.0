@@ -126,7 +126,7 @@ require 'php/verifica-sessao.php';
       <!-- Menu -->
             <nav>  
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo"><img src="img/logo.png" width="95px"></a>
+                    <a href="index.php" class="brand-logo"><img src="img/logo.png" width="95px"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#jogos"><i class="material-icons"></i></a></li>
                         <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a></li>
