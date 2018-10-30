@@ -304,7 +304,20 @@ session_start();
             $('.modal').modal();
         });
         
-        
+        function logout(){
+			$.ajax({
+                  url: "php/logout.php",
+				  method: "POST",
+                  dataType: "json",
+                  success: function(retorno){
+                      if(retorno.deucerto){
+                        location.reload();
+					  }else{
+                        alert('Deu ruim!');
+                      }
+                  }
+            });
+		}
     </script>
 </body>
 </html>
