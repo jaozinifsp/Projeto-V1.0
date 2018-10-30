@@ -131,7 +131,6 @@ require 'php/verifica-sessao.php';
                         <li><a href="#jogos"><i class="material-icons"></i></a></li>
                         <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a></li>
                         <li><a href="/php/logout.php">Bem-vindo  <?php echo $_SESSION['nome_login']; ?>|   Sair</a></li>
-
                     </ul>
                 </div>
             </nav>
