@@ -2,5 +2,5 @@
 session_start();
 session_destroy();
 
-header('Location: /Projeto-principal/');
+header('Location: /Projeto-V1.0/index.php');
 ?>

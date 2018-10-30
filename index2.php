@@ -130,7 +130,12 @@ require 'php/verifica-sessao.php';
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#jogos"><i class="material-icons"></i></a></li>
                         <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a></li>
+<<<<<<< HEAD
                         <li><a href="/php/logout.php">Bem-vindo  <?php echo $_SESSION['nome_login']; ?> |   Sair</a></li>
+=======
+                        <li><a href="#">Bem-vindo(a) <?php echo $_SESSION['nome_login']; ?></a></li>
+						<li><a href="php/logout.php">Sair</a> </li>
+>>>>>>> 2adf28f6b988fc9605a3485fa62f4ce4beee8e92
                     </ul>
                 </div>
             </nav>
