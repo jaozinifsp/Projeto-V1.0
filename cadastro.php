@@ -1,3 +1,4 @@
+<asdasdsa></asdasdsa>
 <html>
 <head>
   <meta charset="UTF-8" />
@@ -20,7 +21,7 @@
             data: {"nome_cad":nome, "senha_cad":senha, "email_cad":email},
             success: function(retorno){
             if(retorno.deucerto){
-                window.location.href = "index.php";
+                window.location.href = "index2.php";
             }else{   
                 
             }
@@ -37,7 +38,7 @@
                   data: {'nome_login':user, 'senha_login':pass},
                   success: function(retorno){
                       if(retorno.deucerto){
-                          window.location.href = "index.php";
+                          window.location.href = "index2.php";
 					  }else{
                         alert(retorno.mensagem);
                       }
@@ -79,7 +80,7 @@
           </p>
           
           <p> 
-              <button onclick="login()">Logar</button> 
+              <button onclick="login()" class="button_log">Logar</button> 
           </p>
            
           <p class="link">
@@ -105,13 +106,15 @@
             <label for="email">E-mail</label>
             <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
           </p>
+           <div id="button">
           <p> 
-              <button onclick="cadastrar()">Cadastrar</button> 
+             
+              <button onclick="cadastrar()" class="button_cad">Cadastrar</button>  
           </p>
-           
+              </div>
           <p class="link">  
             Já tem conta?
-            <a href="#paralogin"> Ir para Login </a>
+            <a href="#paralogin">Logar </a>
           </p>
       </div>
     </div>
