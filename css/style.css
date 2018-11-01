@@ -130,3 +130,6 @@ nav .brand-logo {
     margin-top: 8px;
     
 }
+#logout_houver:hover{
+    background-color: red;
+}
