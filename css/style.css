@@ -127,6 +127,7 @@ nav .brand-logo {
 .grow:hover { transform: scale(1.1); }
 
 #divulgue{
+
     margin-top: 8px;
     
 }
@@ -161,3 +162,7 @@ button:before {
 button:hover:before {
 	width: 100%;
 }
+    margin: 16px;;
+   
+}
+

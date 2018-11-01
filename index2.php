@@ -129,14 +129,19 @@ require 'php/verifica-sessao.php';
                     <a href="index.php" class="brand-logo"><img src="img/logo.png" width="95px"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="#jogos"><i class="material-icons"></i></a></li>
-                        <li><a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a></li>
-
+                        
                     
 
                         <li><a href="#">Bem-vindo(a) <?php echo $_SESSION['nome_login']; ?></a></li>
+
 						<!--<li><a href="php/logout.php" class="sair">Sair</a> </li>-->
                         <li><a href="php/logout.php" class="waves-effect waves-light btn-small">Sair</a></li>
-                        <!--<li><button href="php/logout.php">Sair</button></li>-->
+
+
+						<li><a id="logout_hover" href="php/logout.php">Sair</a> </li>
+
+					
+
                     </ul>
                 </div>
             </nav>
@@ -152,6 +157,11 @@ require 'php/verifica-sessao.php';
         <img class="imagem" src="img/pagina_incial.jpg" width="1349" height="669">
     </div>
     <!-- cards -->
+    
+
+    <div id="divulgue">
+    <a class="waves-effect waves-light btn modal-trigger" href="cadastro_jogo.php">Cadastre o seu jogo</a>
+    </div>
     <section id="jogos">
         <div class="cards">
             <div class="row">
@@ -206,7 +216,9 @@ require 'php/verifica-sessao.php';
                 </div>
             </div>
         </div>
+     >
     </section>
+   
     <!-- slide -->
     <section class="slide">
         
