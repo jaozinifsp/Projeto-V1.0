@@ -28,7 +28,14 @@
               <p> 
                   <button onclick="enviararq()" class="button_log">Cadastre</button> 
               </p>
-          
+          <p>
+            <input type='file' onchange="readURL(this);" />
+            <img id="blah" src="img/white.svg" alt="your image" />
+          </p>
+          <p> 
+              <button onclick="login()" class="button_log">Cadastre</button> 
+          </p>
+
           <script>
                   function readURL(input) {
                 if (input.files && input.files[0]) {
