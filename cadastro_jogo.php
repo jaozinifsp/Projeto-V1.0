@@ -13,23 +13,21 @@
       <!--FORMULÁRIO DE cadastro de jogo-->
       <div id="login">
           <h1>Cadastre o seu game</h1>
-          <form action="php/upload-img.php" method="post" enctype="multipart/form-data">
               <p> 
                   <label for="jogo">Jogo:</label>
                   <input id="jogo" name="nome-jogo" required="required" type="text" placeholder="ex. God of War"/>
               </p>
               <p> 
                   <label for="descricao">Descrição:</label>
-                  <textarea name="descricao" rows="4" cols="57" placeholder="Diga mais sobre o jogo"></textarea> 
+                  <textarea id="descricao"  name="descricao-jogo" rows="4" cols="57" placeholder="Diga mais sobre o jogo"></textarea> 
               </p>
               <p>
-                  <input name="imagem" type='file' onchange="readURL(this);" />
-                  <img id="blah" src="http://placehold.it/180" alt="your image" />
+                  <input name="imagem" id="imagem" type='file' onchange="readURL(this);" />
+                  <img id="blah" src="http://placehold.it/180" alt="your image" accept="image/*"/>
               </p>
               <p> 
-                  <button submit="enviar" class="button_log">Cadastre</button> 
+                  <button onclick="enviararq()" class="button_log">Cadastre</button> 
               </p>
-          </form>
           
           <script>
                   function readURL(input) {
@@ -44,13 +42,41 @@
                     reader.readAsDataURL(input.files[0]);
                 }
             }
+              function enviararq(){
+			var formData = new FormData();
+			var nome = $('#jogo').val();
+            var descricao = $('#descricao').val();
+			//pega o arquivo
+			
+            var file = $('#imagem').prop('files')[0];
+
+			formData.append("jogo", nome);
+            formData.append("descricao", descricao);
+			formData.append("imagem", file);
+			
+			$.ajax({
+                  url: "php/upload-img.php",
+				  method: "POST",
+                  dataType: "json",
+                  data: formData,
+				  cache: false,
+				  contentType: false,
+				  processData: false,
+                  success: function(retorno){
+                      if(retorno.deucerto){
+                          alert(retorno.msg);
+                          window.location.href = "index2.php";
+                      }else{
+							alert(retorno.msg);
+					  }
+                  }
+              });
+		}
           </script>
       </div>
         
       
     </div>
   </div>
-    <script>
-    </script>
 </body>
 </html>
