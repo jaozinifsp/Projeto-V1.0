@@ -20,7 +20,7 @@ footer {
     text-align: center;
     margin-top:  10px;
     margin-left: 200px;
-    font-family: 'Cairo';
+    font-family: 'roboto';
     font-size: 20px;
     margin-right: 200px;
 }
@@ -129,7 +129,10 @@ nav .brand-logo {
 #divulgue{
     margin-top: 8px;
     
+<<<<<<< HEAD
 }
 #logout_houver:hover{
     background-color: red;
+=======
+>>>>>>> a2323f6a54bb038165863b4f3c8c8457be9f706a
 }
