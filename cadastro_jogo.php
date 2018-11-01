@@ -49,7 +49,7 @@
           
           <p>
             <input type='file' onchange="readURL(this);" />
-            <img id="blah" src="http://placehold.it/180" alt="your image" />
+            <img id="blah" src="img/white.svg" alt="your image" />
           </p>
           <p> 
               <button onclick="login()" class="button_log">Cadastre</button> 
