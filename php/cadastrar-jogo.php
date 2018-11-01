@@ -1,19 +1,19 @@
 <?php
 session_start();
-$nome = $_POST['nome_cad'];
-$senha = sha1($_POST['senha_cad']);
-$email = $_POST['email_cad'];
+$nome = $_POST['nome-jogo'];
+$descricao = $_POST['descricao']);
+$imagem = $_POST['imagem'];
 
 require 'conexao.php';
 try{
 	$stmt = $conn->prepare(
-	"INSERT INTO cadastro ( nome, senha, email) 
-    VALUES ( :nome, :senha, :email)"
+	"INSERT INTO upload ( nome, descricao, imagem) 
+    VALUES ( :nome, :descricao, :imagem)"
     );
     
     $stmt->bindParam(':nome', $nome);
-    $stmt->bindParam(':senha', $senha);
-    $stmt->bindParam(':email', $email);
+    $stmt->bindParam(':descricao', $descricao);
+    $stmt->bindParam(':imagem', $imagem;
 
 	$stmt->execute();
 	$retorno['deucerto'] = true;
