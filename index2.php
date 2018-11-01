@@ -134,8 +134,9 @@ require 'php/verifica-sessao.php';
                     
 
                         <li><a href="#">Bem-vindo(a) <?php echo $_SESSION['nome_login']; ?></a></li>
-						<li><a href="php/logout.php">Sair</a> </li>
-
+						<!--<li><a href="php/logout.php" class="sair">Sair</a> </li>-->
+                        <li><a href="php/logout.php" class="waves-effect waves-light btn-small">Sair</a></li>
+                        <!--<li><button href="php/logout.php">Sair</button></li>-->
                     </ul>
                 </div>
             </nav>

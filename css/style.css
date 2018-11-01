@@ -130,3 +130,34 @@ nav .brand-logo {
     margin-top: 8px;
     
 }
+.sair:hover{
+    color: red;
+}
+button {
+	border: none;
+	background: red;
+	color: #f2f2f2;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 8px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+    margin-right: 10px;
+}
+button:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 23px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	transition: all 0.3s ease;
+    margin-right: 10px;
+} 
+
+button:hover:before {
+	width: 100%;
+}
