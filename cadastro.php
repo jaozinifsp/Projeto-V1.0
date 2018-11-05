@@ -104,7 +104,7 @@
           </p>
            <p> 
             <label for="email">E-mail</label>
-            <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+            <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. Paulo"/>
           </p>
            <div id="button">
           <p> 
