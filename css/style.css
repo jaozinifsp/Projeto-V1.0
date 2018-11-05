@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+footer {
+    padding-top: 20px;
+    color: #fff;''
+    background-color: #6ea7ee;
+    padding-bottom: -40px;
+}
+.texto{
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin-top:  10px;
+    margin-left: 200px;
+    font-family: 'roboto';
+    font-size: 20px;
+    margin-right: 200px;
+}
+.pagina_inicial .texto .paragrafo{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: -20px;
+}
+
+html, body {
+  font-family: Open Sans;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+h1 {
+  letter-spacing: -15px;
+  font-family: Open Sans;
+  color: white;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 800;
+  line-height: 200px;
+}
+
+.MainContainer {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.ContentContainer {
+  position: relative;
+  display: block;
+  background-color: white;
+  z-index: 1;
+}
+
+.Content {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 75px 0;
+  
+}
+
+p {
+  margin: 5px;
+}
+.nav-wrapper{
+    background-color:#052432;
+    position:absolute;  
+}
+.card1{
+    margin-top: 150px;
+    
+}
+#face{
+    float: left;
+    margin-top: -3px;
+    margin-left: 0px;
+}
+#you{
+    float: left;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+#insta{
+    float: left;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    top: -13px;
+}
+.slide{
+    background-color: #052432;
+}
+#jogos{
+    background-color: #052432;
+}
+.card-content{
+    font-size: 12px;
+    margin-bottom: ;
+}
+#texto{
+    text-align: justify;
+}
+.texto-card{
+    text-align: justify;
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+#divulgue{
+
+    margin-top: 8px;
+    
+}
+.sair:hover{
+    color: red;
+}
+button {
+	border: none;
+	background: red;
+	color: #f2f2f2;
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 8px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+    margin-right: 10px;
+}
+button:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 23px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 10px;
+	transition: all 0.3s ease;
+    margin-right: 10px;
+} 
+
+button:hover:before {
+	width: 100%;
+}
+
+
+#divulgue{
+    margin: 16px;
+}
+    
+
+   
+
+
+

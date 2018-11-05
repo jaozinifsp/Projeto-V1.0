@@ -71,7 +71,7 @@
           <h1>Login</h1> 
           <p> 
             <label for="nome_login">Seu nome</label>
-            <input id="user" name="nome_login" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+            <input id="user" name="nome_login" required="required" type="text" placeholder="ex. Paulo"/>
           </p>
            
           <p> 
@@ -104,7 +104,7 @@
           </p>
            <p> 
             <label for="email">E-mail</label>
-            <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+            <input id="email" name="nome_mail" required="required" type="text" placeholder="ex. Paulo"/>
           </p>
            <div id="button">
           <p> 

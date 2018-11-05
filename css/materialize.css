@@ -5260,8 +5260,9 @@ small {
   cursor: pointer;
 }
 
-.btn:hover, .btn-large:hover, .btn-small:hover {
+.sair:hover {
   background-color: red;
+    color: white;
 }
 
 .btn-floating {

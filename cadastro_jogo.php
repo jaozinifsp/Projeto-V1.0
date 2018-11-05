@@ -21,6 +21,7 @@
                   <label for="descricao">Descrição:</label>
                   <textarea id="descricao"  name="descricao-jogo" rows="4" cols="57" placeholder="Diga mais sobre o jogo"></textarea> 
               </p>
+
              
           <p>
             <input type='file' onchange="readURL(this);" />
@@ -29,6 +30,9 @@
           <p> 
               <button onclick="login()" class="button_log">Cadastre</button> 
           </p>
+
+              
+
 
           <script>
                   function readURL(input) {
