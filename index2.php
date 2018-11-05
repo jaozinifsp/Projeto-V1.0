@@ -258,7 +258,7 @@ require 'php/verifica-sessao.php';
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <a href="index.php" class="brand-logo2"><img src="img/logo.png" width="140px"></a>
+                <a href="index.php" class="brand-logo2"><img src="img/logo.png" width="1px"></a>
                 
                 <p class="grey-text text-lighten-4" id="texto">
                     Se você é um desenvolvedor que deseja promover o seu projeto, ou apenas deseja saber quais são as tendências do mundo de Indie-games, bem vindo a DevSocial.<br>
